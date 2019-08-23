@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.top-page{
+    text-align: center;
+    background-color: #003366;
+    width: 100%;
+    height: 30%;
+    padding: 24px 0;
+}
+
+.top-page h2{
+    margin: 0;
+    font-size: 16px;
+}
+
+.top-page h4{
+    font-weight: normal;
+    margin: 4px 0;
+    font-size: 12px;
+}
+
+.top-page p{
+    width: 60%;
+    margin: 12px auto;
+    font-size: 10px
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 4px solid #11EDAD;
+}
+
+header{
+    color: white;
+}
+
+/* container style */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header-section{
+    text-align: center;
+    font-size: 16px;
+    color: #003366;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.experience-card{
+    width: 80%;
+    padding: 8px;
+    box-shadow: 1px 1px 10px lightgray;
+    margin: 8px;
+}
+
+.exp-card-head{
+    display: flex;
+    border-bottom: 1px solid #515354;
+}
+
+.exp-card-head h4{
+    font-size: 14px;
+    font-weight: normal;
+    color: #003366;
+}
+
+.exp-card-head h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #003366;
+}
+
+.exp-card-head p{
+    font-size: 10px;
+    font-weight: normal;
+    color: #515354;
+}
+
+.exp-card-body p{
+    font-size: 10px;
+    color: #515354;
+    padding: 8px;
+}
+
+.exp-card-footer{
+    text-align: right;
+}
+
+.exp-card-footer a{
+    text-decoration: none;
+    color: #003366;
+    font-size: 12px;
+}
+
+.company-logo{
+    width: 48px;
+    height: 48px;
+}
+
+.place-info{
+    padding-left: 8px;
+}
+
+.place-info h4{
+    margin-top: 0;
+}
+
+.place-info *{
+    margin: 4px 0;
+}
+
+/* end container style */
+
+.project-card{
+    width: 80%;
+    box-shadow: 1px 1px 10px lightgray;
+    margin: 8px;
+    padding-bottom: 8px;
+}
+
+.project-body{
+    padding: 8px;
+}
+
+.project-body p{
+    font-size: 10px;
+    color: #515354;
+    margin-bottom: 16px;
+}
+
+.project-header{
+    padding: 8px;
+    background-color: #003366;
+}
+
+.project-header h5{
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.project-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 5px 7px;
+    background-color: #0067CE;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 12px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+}
+
+footer{
+    padding: 16px;
+    background-color: #003366;
+    text-align: center;
+    border-top: 4px solid #11EDAD;
+}
+
+footer h2{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: #EEEEEE;
+    margin-bottom: 8px;
+}
+
+footer p{
+    font-size: 12px;
+    color: #EEEEEE;
+    margin-bottom: 19px;
+}
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-me input,
+.contact-me textarea{
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: #003366;
+    display: block;
+    width: 60%;
+    color: white;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 10px;
+}
+
+.contact-me textarea{
+    height: 30%;
+    resize: none;
+    font-family: inherit;
+}
+
+.contact-me .actions{
+    width: 100%;
+}
+
+.contact-me .btn{
+    padding: 5px 23px;
+}
+
+/* media queries */
+
+@media all and (min-width: 600px){
+    .experience-card{
+        width: 42%;
+    }
+
+    .project-card{
+        width: 42%;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .experience-card{
+        width: 30%;
+    }
+
+    .project-card{
+        width: 30%;
+    }
+}
